@@ -1,3 +1,6 @@
+.l-main {
+  font-family: monospace;
+}
 .l-header__inner {
   display: flex;
   justify-content: space-between;
@@ -201,12 +204,16 @@
     font-size: 20px;
   }
   .c-youtuberList__text {
-    font-size: 17px;
+    font-size: 20px;
   }
   .c-youtuberList__video {
     max-width: 768px;
     max-height: 400px;
     width: 100%;
+  }
+  .c-show {
+    max-width: 200px;
+    font-size: 15px;
   }
   .l-footerList__text {
     font-size: 11px;
